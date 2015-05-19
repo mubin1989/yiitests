@@ -1,0 +1,16 @@
+2015/05/19 12:28:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in C:\xampp\htdocs\yiitests\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yiitests\framework\web\CWebApplication.php(141): CWebApplication->runController('gii')
+#1 C:\xampp\htdocs\yiitests\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\yiitests\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiitests/index.php?r=gii
+---
+2015/05/19 12:39:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "po".' in C:\xampp\htdocs\yiitests\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yiitests\framework\web\CWebApplication.php(141): CWebApplication->runController('po')
+#1 C:\xampp\htdocs\yiitests\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\yiitests\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiitests/index.php?r=po
+---
